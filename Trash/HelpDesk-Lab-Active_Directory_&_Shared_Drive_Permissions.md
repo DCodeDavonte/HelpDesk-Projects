@@ -62,7 +62,8 @@
 1.  Open **Server Manager** -\> **File and Storage Services** -\>
     **Shares**.
 
-![](media/mediaAD/image1.png)
+![](media/media/image1.png){width="5.683490813648294in"
+height="3.8333333333333335in"}
 
 2.  Select **New Share** and create:
 
