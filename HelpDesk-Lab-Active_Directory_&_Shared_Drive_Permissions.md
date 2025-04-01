@@ -29,7 +29,7 @@
 
 **Disabled Account (Due to Vacation, Absence, or Other Reasons)**
 
-![](media/media/image2.png){width="5.652777777777778in"
+![](media/mediaAD/image2.png){width="5.652777777777778in"
 height="4.239583333333333in"}
 
 - In **ADUC**, find the user account.
