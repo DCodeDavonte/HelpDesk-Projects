@@ -25,7 +25,12 @@
 
 - Check the **Unlock Account** option to restore access if it's locked.
 
+![](media/mediaAD/image1.png)
+
 **Disabled Account (Due to Vacation, Absence, or Other Reasons)**
+
+![](media/media/image2.png){width="5.652777777777778in"
+height="4.239583333333333in"}
 
 - In **ADUC**, find the user account.
 
@@ -34,6 +39,9 @@
 - If necessary, reset the user's password using the same method.
 
 **Expired Accounts**
+
+![](media/media/image3.png){width="5.708333333333333in"
+height="4.28125in"}
 
 - If a user is unable to log in, check if their account has expired.
 
@@ -62,7 +70,8 @@
 1.  Open **Server Manager** -\> **File and Storage Services** -\>
     **Shares**.
 
-![](media/mediaAD/image1.png)
+![](media/media/image4.png){width="5.683490813648294in"
+height="3.8333333333333335in"}
 
 2.  Select **New Share** and create:
 
@@ -70,13 +79,13 @@
 
     - A shared folder named Personal.
 
-![](media/media/image2.png){width="5.520833333333333in"
+![](media/media/image5.png){width="5.520833333333333in"
 height="3.9479166666666665in"}
 
 3.  Leave default settings unchanged unless specific requirements
     dictate otherwise.
 
-![](media/media/image3.png){width="5.510416666666667in"
+![](media/media/image6.png){width="5.510416666666667in"
 height="3.8333333333333335in"}
 
 **Configuring Security Groups in Active Directory**
@@ -85,7 +94,7 @@ height="3.8333333333333335in"}
 
 2.  Navigate to **Users**, then right-click and select **New Group**.
 
-![](media/media/image4.png){width="6.103699693788276in"
+![](media/media/image7.png){width="6.103699693788276in"
 height="4.915972222222222in"}
 
 3.  Create two **Security Groups**:
@@ -101,7 +110,7 @@ height="4.915972222222222in"}
     designated manager for specific resources.
 
 > ![A screenshot of a computer AI-generated content may be
-> incorrect.](media/media/image5.png){width="4.958333333333333in"
+> incorrect.](media/media/image8.png){width="4.958333333333333in"
 > height="4.9375in"}
 
 5.  Add members to each group:
@@ -109,7 +118,7 @@ height="4.915972222222222in"}
     - Right-click the group -\> **Properties** -\> **Members** -\> **Add
       Users**.
 
-![](media/media/image6.png){width="5.322916666666667in"
+![](media/media/image9.png){width="5.322916666666667in"
 height="3.8854166666666665in"}
 
 - Verify group assignments by checking User -\> Properties -\> Member
@@ -118,7 +127,7 @@ height="3.8854166666666665in"}
 - You can also add a description in the General Tab of the folder for
   clarity.
 
-![](media/media/image7.png){width="3.0208333333333335in"
+![](media/media/image10.png){width="3.0208333333333335in"
 height="3.5729166666666665in"}
 
 **Applying Security and Sharing Permissions**
@@ -126,7 +135,7 @@ height="3.5729166666666665in"}
 1.  Right-click the HR or Personal folder -\> **Properties** -\>
     **Security** -\> **Advanced**.
 
-![](media/media/image8.png){width="5.5625in"
+![](media/media/image11.png){width="5.5625in"
 height="3.8645833333333335in"}
 
 2.  **Disable inheritance** to prevent unintended access.
@@ -148,10 +157,10 @@ height="3.8645833333333335in"}
       the Personal security group. Coming up, we will make it so that
       each user has an individualized "Personal" folder.
 
-![](media/media/image9.png){width="6.416666666666667in"
+![](media/media/image12.png){width="6.416666666666667in"
 height="4.177083333333333in"}
 
-![](media/media/image10.png){width="5.520833333333333in"
+![](media/media/image13.png){width="5.520833333333333in"
 height="3.8746784776902885in"}
 
 5.  **Configure sharing permissions**:
@@ -174,7 +183,7 @@ height="3.8746784776902885in"}
 3.  Confirm that the user can access assigned folders and not
     unauthorized ones.
 
-![](media/media/image11.png){width="6.5in" height="8.083333333333334in"}
+![](media/media/image14.png){width="6.5in" height="8.083333333333334in"}
 
 **Mapping Network Drive for Easy Access**
 
@@ -185,10 +194,10 @@ height="3.8746784776902885in"}
 3.  Assign a drive letter and check **Reconnect at sign-in** if
     persistent access is required.
 
-![](media/media/image12.png){width="4.010416666666667in"
+![](media/media/image15.png){width="4.010416666666667in"
 height="2.9791666666666665in"}![A computer screen shot of a computer
 AI-generated content may be
-incorrect.](media/media/image13.png){width="5.0625in" height="3.8125in"}
+incorrect.](media/media/image16.png){width="5.0625in" height="3.8125in"}
 
 **Configuring Personal Folder Mapping for Each User**
 
@@ -203,12 +212,12 @@ incorrect.](media/media/image13.png){width="5.0625in" height="3.8125in"}
     [\\\\WINDOWSSERVER20\\Personal\\%username%](file:///\\WINDOWSSERVER20\Personal\%25username%25)
     (It says Z: here, but I later changed the drive letter)
 
-![](media/media/image14.png){width="5.291666666666667in"
+![](media/media/image17.png){width="5.291666666666667in"
 height="4.427083333333333in"}
 
 - We can verify this by looking at Xu's file folders on Desktop2.
 
-![](media/media/image15.png){width="5.40625in" height="4.0625in"}
+![](media/media/image18.png){width="5.40625in" height="4.0625in"}
 
-![](media/media/image16.png){width="6.177083333333333in"
+![](media/media/image19.png){width="6.177083333333333in"
 height="4.427083333333333in"}
