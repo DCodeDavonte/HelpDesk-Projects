@@ -36,7 +36,7 @@ Configured a new forest named {Balamb_Garden.com}.
 There were no forests initially present, and we needed one to interact
 with many of the features available to us.
 
- ![](media/image1.png){width="6.5in" height="4.59375in"}
+ ![](media/image1.png)
 
 For convenience-sake, I created a pin to the Active Directory Users and
 Computers window for easy access.
@@ -45,7 +45,7 @@ This window allows us to peer into some of the many things that I may
 interact with on a daily basis. By going to View-\>Advanced Features, we
 can see even more information about our domain.
 
- ![](media/image2.png){width="6.5in" height="4.489583333333333in"}
+ ![](media/image2.png)
 
 For an IT Support role, we should be expected to have some type of
 elevated privileges. They may not be exactly Administrator-level, but
@@ -57,8 +57,7 @@ Copy the Administrator account and name the new account, HelpDesk.
 This gives us our HelpDesk account with the necessary privileges to do a
 number of important tasks.
 
-![](media/image3.png){width="3.4943153980752406in"
-height="4.885416666666667in"}
+![](media/image3.png)
 
 It is much more efficient to copy a previous user\'s settings (that you
 want to replicate) to a new account than to create a fresh account and
@@ -108,13 +107,13 @@ Tools\] \[Active Directory Certificate Services Tools\]
 Note: To even see/install these, you will need the appropriate
 privileges on the account.
 
-![](media/image4.png){width="4.28125in" height="4.114583333333333in"}
+![](media/image4.png)
 
 Once that is settled, we need to now connect Desktop1 to our domain.
 This means making sure that the devices are in the appropriate network,
 so that they may communicate with each other. ![A screenshot of a
 computer AI-generated content may be
-incorrect.](media/image5.png){width="5.8125in" height="5.875in"}
+incorrect.](media/image5.png)
 
 \[Note: This isn't the final IP configuration for the network\]
 
@@ -139,20 +138,17 @@ simplicity. With enough time and effort, I got it working correctly.
 We can see here that the machine has been added to our domain.
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/image6.png){width="4.645833333333333in"
-height="3.46875in"}
+incorrect.](media/image6.png)
 
 Desktop1 can also be seen under Computers in the AD Users and Computers
 window.
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/image7.png){width="6.5in"
-height="2.3229166666666665in"}
+incorrect.](media/image7.png)
 
   It additionally appears on the Sign-In screen.
 
-![](media/image8.png){width="6.489583333333333in"
-height="4.864583333333333in"}
+![](media/image8.png)
 
 This allowed me to add Desktop1 to the {Balamb_Garden.com} domain and
 have them both able to communicate. I also installed items such as
