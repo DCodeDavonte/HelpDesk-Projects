@@ -67,22 +67,11 @@ management, and permissions.</td>
 <colgroup>
 <col style="width: 100%" />
 </colgroup>
-<thead>
-<tr>
-<th>Knowledge of IP configuration, static IPs, and troubleshooting
-connectivity issues between devices.</th>
-</tr>
-</thead>
 <tbody>
 </tbody>
 </table>
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-</tbody>
-</table></td>
+<p>Knowledge of IP configuration, static IPs, and troubleshooting
+connectivity issues between devices.</p></td>
 </tr>
 <tr>
 <td>RSAT Tools Installation</td>
