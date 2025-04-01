@@ -7,8 +7,7 @@
 - Configured **Desktop2** to function as a standard employee or general
   user workstation.
 
-> ![](media/media/image1.png){width="4.979166666666667in"
-> height="3.4791666666666665in"}
+> ![](media/mediaSU/image1.png)
 
 ------------------------------------------------------------------------
 
@@ -20,8 +19,7 @@
 
     - Created a new user, **Xu**, and moved it to the **HR OU**.
 
-> ![](media/media/image2.png){width="5.03125in"
-> height="4.864583333333333in"}
+> ![](media/mediaSU/image2.png)
 
 - Created an **IT OU** and moved the **Helpdesk user** into the IT OU.
 
@@ -41,8 +39,7 @@
 
     - Go to **Domains → \[Your Domain\] → Default Domain Policy**.
 
-> ![](media/media/image3.png){width="5.322916666666667in"
-> height="4.583333333333333in"}
+> ![](media/mediaSU/image3.png)
 
 2.  **Editing Domain Policies:**
 
@@ -55,11 +52,9 @@
     - Ensure that changes are properly enforced by selecting
       **Enforced** after applying edits.
 
-> ![](media/media/image4.png){width="5.645022965879265in"
-> height="3.4479166666666665in"}
+> ![](media/mediaSU/image4.png)
 >
-> ![](media/media/image5.png){width="5.09375in"
-> height="4.020833333333333in"}
+> ![](media/mediaSU/image5.png)
 
 ------------------------------------------------------------------------
 
