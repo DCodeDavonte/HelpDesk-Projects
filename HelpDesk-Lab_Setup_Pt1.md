@@ -36,7 +36,7 @@ Configured a new forest named {Balamb_Garden.com}.
 There were no forests initially present, and we needed one to interact
 with many of the features available to us.
 
- ![](media/image1.png){width="6.5in" height="4.59375in"}
+ ![](./image1.png){width="6.5in" height="4.59375in"}
 
 For convenience-sake, I created a pin to the Active Directory Users and
 Computers window for easy access.
