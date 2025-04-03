@@ -1,8 +1,9 @@
 **Enabling Remote Desktop (RDP) on Desktop2**
-
+---
 **Objective:**
 
 Prepare **Desktop2** for remote administration, simulating a scenario that would be common in a corporate IT environment.
+---
 
 **Steps:**
 
@@ -36,11 +37,14 @@ Prepare **Desktop2** for remote administration, simulating a scenario that would
 
 - **RDP** is typically already configured in many company environments for system administrators and support teams to remotely manage systems. Understanding how to set it up and troubleshoot issues like DNS or other connectivity conflicts is essential for ongoing support.
 
-**Determining Shared Drives**
+---
 
+**Determining Shared Drives**
+---
 **Objective:**
 
 Identify shared drives to access critical files and manage networked resources.
+---
 
 **Command:**
 
@@ -81,12 +85,14 @@ Identify shared drives to access critical files and manage networked resources.
 **Real-World Application:**
 
 - **Accessing shared drives and network resources is vital in corporate environments** for IT staff to perform maintenance tasks or troubleshoot issues without interrupting user activity.
+---
 
 **Connecting to Remote Registry**
-
+---
 **Objective:**
 
 Use **Registry Editor** to remotely manage the registry of **Desktop2**.
+---
 
 **Steps:**
 
@@ -107,12 +113,14 @@ Use **Registry Editor** to remotely manage the registry of **Desktop2**.
 **Real-World Application:**
 
 - **Remote Registry** access is critical for support staff to edit system settings or troubleshoot registry-related issues on remote machines, especially in larger environments where physical access to machines may not be possible.
+---
 
 **Group Policy and Task Manager Restrictions**
-
+---
 **Objective:**
 
 Use **Group Policy** to control access privileges on **Desktop2**, simulating a typical **security policy** for end-user workstations.
+---
 
 **Steps:**
 
@@ -153,12 +161,14 @@ Use **Group Policy** to control access privileges on **Desktop2**, simulating a 
 **Real-World Application:**
 
 - **Restricting certain options is a common IT policy** depending on the context and environment. It can prevent unauthorized users from tampering with system processes. Applying such policies via **Group Policy** is crucial for system administrators to ensure end-user systems remain secure and well-managed.
+---
 
 **Using Group Policy for Shutdown and Restart Control**
-
+---
 **Objective:**
 
 Modify **Group Policy** settings to prevent accidental shutdown or restart of machines remotely by removing the button.
+---
 
 **Steps:**
 
@@ -175,12 +185,14 @@ Modify **Group Policy** settings to prevent accidental shutdown or restart of ma
 **Real-World Application:**
 
 - **Preventing accidental restarts or shutdowns is important when using remote desktop tools**. System admins often restrict these actions on machines accessed via **RDP** to ensure systems are not unintentionally turned off during troubleshooting or remote support sessions.
+---
 
 **Monitoring and Troubleshooting Group Policy**
-
+---
 **Objective:**
 
 Use **Group Policy Result Tools** to monitor and troubleshoot policies applied to specific machines or users.
+---
 
 **Steps:**
 
