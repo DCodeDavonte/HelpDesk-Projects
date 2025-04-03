@@ -146,3 +146,50 @@ linking to their dedicated folders for personalized access.</td>
 </tr>
 </tbody>
 </table>
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th colspan="2" style="text-align: center;">Remote Desktop Services &amp; Group Policy Management</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Task/Process</td>
+<td>Knowledge Gained</td>
+</tr>
+<tr>
+<td>Enabling Remote Desktop (RDP)</td>
+<td>Configured remote desktop settings and troubleshot connectivity issues to establish seamless remote access between systems.</td>
+</tr>
+<tr>
+<td>Testing Connectivity Between Machines</td>
+<td>Diagnosed and resolved network connectivity issues using command-line tools to ensure proper communication between systems.</td>
+</tr>
+<tr>
+<td>Accessing Shared Drives</td>
+<td>Managed shared drive access through File Explorer and Registry Editor, ensuring efficient and secure file management.</td>
+</tr>
+<tr>
+<td>Connecting to Remote Registry</td>
+<td>Administered remote registry access to configure system settings and troubleshoot remote machine issues, enhancing IT management.</td>
+</tr>
+<tr>
+<td>Using Group Policy for Restrictions</td>
+<td>Deployed and enforced Group Policy settings to restrict shutdown/restart access, preventing accidental system downtime.</td>
+</tr>
+<tr>
+<td>Firewall Configuration for Remote Access</td>
+<td>Configured firewall rules to allow ICMP and SMB traffic, ensuring uninterrupted remote access while maintaining network security.</td>
+</tr>
+<tr>
+<td>Remote Troubleshooting and User Support</td>
+<td>Utilized remote desktop and registry tools to troubleshoot system issues and provide support without physical access to the machine.</td>
+</tr>
+</tbody>
+</table>
+
