@@ -10,7 +10,7 @@ installations and asset tracking are required.
 
 ## Tools & Environment
 
-\- Windows Server 2022 VM (Domain Controller)\
+- Windows Server 2022 VM (Domain Controller)\
 - Windows 10 Pro VMs (Domain-joined workstations: Desktop1, Desktop2)\
 - PDQ Deploy (Trial)\
 - PDQ Inventory (Trial)\
@@ -22,7 +22,7 @@ VMs)\
 
 ## Lab Activities
 
-1\. Set Up Shared Access:
+### 1\. Set Up Shared Access:
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](media/image1.png){width="5.398568460192476in"
@@ -47,7 +47,7 @@ my physical host machine to the Server VM.\]
   or imported from the built-in PDQ Library to begin software
   deployments.\]
 
-2\. Installed & Configured PDQ Deploy:
+### 2\. Installed & Configured PDQ Deploy:
 
 - After installation, I used the built-in PDQ Library to silently deploy
   the Zoom Client to both Desktop1 and Desktop2.
@@ -79,7 +79,7 @@ my physical host machine to the Server VM.\]
 - It taught me how sysadmins can push software quickly and silently
   without disrupting users.
 
-3\. Troubleshooting Deployment to the Server VM:
+### 3\. Troubleshooting Deployment to the Server VM:
 
 - When deployment to the Server VM failed using the PDQ Library package,
   I began isolating the issue.
@@ -113,7 +113,7 @@ my physical host machine to the Server VM.\]
   labs---and that building and testing custom installers is a valuable
   fallback skill in any admin/support role..
 
-4\. Additional Deployments and Reasoning:
+### 4\. Additional Deployments and Reasoning:
 
 - I proceeded to test further deployments: PuTTY was deployed to
   Desktop1, and Notepad++ was pushed to all machines. PuTTY is useful
@@ -122,7 +122,7 @@ my physical host machine to the Server VM.\]
   scripts, config files, or logs. The ability to deploy both tools
   silently helped reinforce the real-world applicability of PDQ.
 
-5\. PDQ Inventory Setup and Exploration:
+### 5\. PDQ Inventory Setup and Exploration:
 
 ![](media/image7.png){width="5.020833333333333in"
 height="3.477972440944882in"}
