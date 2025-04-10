@@ -10,14 +10,14 @@ installations and asset tracking are required.
 
 ## Tools & Environment
 
-- Windows Server 2022 VM (Domain Controller)\
-- Windows 10 Pro VMs (Domain-joined workstations: Desktop1, Desktop2)\
-- PDQ Deploy (Trial)\
-- PDQ Inventory (Trial)\
-- VirtualBox with Host-Only Networking\
+- Windows Server 2022 VM (Domain Controller)
+- Windows 10 Pro VMs (Domain-joined workstations: Desktop1, Desktop2)
+- PDQ Deploy (Trial)
+- PDQ Inventory (Trial)
+- VirtualBox with Host-Only Networking
 - Shared folder via Guest Additions ISO (between physical desktop and
-VMs)\
-- Zoom MSI, PuTTY, and Notepad++ installers\
+VMs)
+- Zoom MSI, PuTTY, and Notepad++ installers
 - Domain Name: Balamb_Garden
 
 ## Lab Activities
@@ -169,14 +169,14 @@ including domain affiliation, OS version, and current user.\]
 
 ## Key Takeaways
 
-\- Silent deployments reduce disruption and scale well across large
-environments.\
+- Silent deployments reduce disruption and scale well across large
+environments.
 - Network adapters must be understood and managed carefully in virtual
-lab setups.\
+lab setups.
 - PDQ Deploy allows flexible package creation when default Library
-installers fail.\
+installers fail.
 - PDQ Inventory provides deep insight into asset tracking and remote
-control, similar to SCCM.\
+control, similar to SCCM.
 - Working with PDQ helped solidify my understanding of real-world
 support workflows, not just theory.
 
