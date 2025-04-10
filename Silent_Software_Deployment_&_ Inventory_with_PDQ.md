@@ -25,7 +25,7 @@ VMs)\
 ### 1\. Set Up Shared Access:
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](mediaPDQ/image1.png)
+incorrect.](media/mediaPDQ/image1.png)
 
 \[VirtualBox shared folder (Z:) successfully configured via Guest
 Additions. This allowed me to move downloaded PDQ installer files from
@@ -39,7 +39,7 @@ my physical host machine to the Server VM.\]
   real-world method of staging deployment files across isolated
   machines.
 
-  ![](media/image2.png)
+  ![](media/mediaPDQ/image2.png)
 
   \[Initial PDQ Deploy interface. Packages can be created from scratch
   or imported from the built-in PDQ Library to begin software
@@ -50,13 +50,13 @@ my physical host machine to the Server VM.\]
 - After installation, I used the built-in PDQ Library to silently deploy
   the Zoom Client to both Desktop1 and Desktop2.
 
-  ![](media/image3.png)
+  ![](media/mediaPDQ/image3.png)
 
   \[PDQ Deploy's built-in Package Library. Includes ready-to-deploy
   software such as Zoom, Notepad++, and PuTTY---ideal for common IT
   tasks.\]
 
-  ![](media/image4.png)
+  ![](media/mediaPDQ/image4.png)
 
   \[Selecting targets from Active Directory in PDQ Deploy. Domain-joined
   systems such as DESKTOP1 and WINDOWSSERVER20 were available for
@@ -66,7 +66,7 @@ my physical host machine to the Server VM.\]
   users are either unavailable or where remote desktop access isn't
   feasible.
 
-  ![](media/image5.png)
+  ![](media/mediaPDQ/image5.png)
 
   \[Zoom deployment setup using the Deploy Once feature in PDQ Deploy.
   Demonstrates targeting a domain-joined machine for a silent
@@ -80,7 +80,7 @@ my physical host machine to the Server VM.\]
 - When deployment to the Server VM failed using the PDQ Library package,
   I began isolating the issue.
 
-  ![](media/image6.png)
+  ![](media/mediaPDQ/image6.png)
 
   \[Initial deployment attempt to Server VM. Although the setup appeared
   valid, the Zoom installation failed---triggering troubleshooting
@@ -119,7 +119,7 @@ my physical host machine to the Server VM.\]
 
 ### 5\. PDQ Inventory Setup and Exploration:
 
-![](media/image7.png)
+![](media/mediaPDQ/image7.png)
 
 \[PDQ Inventory displaying general system information for Desktop2,
 including domain affiliation, OS version, and current user.\]
@@ -130,7 +130,7 @@ including domain affiliation, OS version, and current user.\]
   via "Add Computers," the Inventory system populated with Desktop1 and
   Desktop2.
 
-  ![](media/image8.png)
+  ![](media/mediaPDQ/image8.png)
 
   \[Full Inventory view showing Desktop1, Desktop2, and WINDOWSSERVER20,
   including the NTLM target name mismatch error for the server
@@ -152,12 +152,12 @@ including domain affiliation, OS version, and current user.\]
   listings, hotfixes, shares, remote command options, reboots, and
   integrations with PDQ Deploy.
 
-  ![](media/image9.png)
+  ![](media/mediaPDQ/image9.png)
 
   \[Applications view for Desktop2 showing successful deployment of Zoom
   and Notepad++ via PDQ Deploy.\]
 
-  ![](media/image10.png)
+  ![](media/mediaPDQ/image10.png)
 
   \[Remotely running ipconfig on Desktop2 using PDQ Inventory's Run
   Command feature --- a helpful tool for non-intrusive diagnostics.\]
