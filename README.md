@@ -88,7 +88,7 @@ detailed information about AD objects (e.g., users, OUs).</td>
 enforcing domain-wide security settings and restrictions.</td>
 </tr>
 <tr>
-<td>Adding Desktop2 to Network/Domain</td>
+<td>Adding Machines to Network/Domain</td>
 <td>Learned how to configure a static IP, ensure network connectivity,
 and join a machine to the domain for integration into a network
 environment.</td>
