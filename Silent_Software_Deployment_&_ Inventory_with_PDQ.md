@@ -25,7 +25,7 @@ VMs)\
 ### 1\. Set Up Shared Access:
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/image1.png)
+incorrect.](mediaPDQ/image1.png)
 
 \[VirtualBox shared folder (Z:) successfully configured via Guest
 Additions. This allowed me to move downloaded PDQ installer files from
