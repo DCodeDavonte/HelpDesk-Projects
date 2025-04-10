@@ -193,3 +193,44 @@ linking to their dedicated folders for personalized access.</td>
 </tbody>
 </table>
 
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th colspan="2" style="text-align: center;">Silent Software Deployment &amp; Inventory (PDQ)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Task/Process</td>
+<td>Knowledge Gained</td>
+</tr>
+<tr>
+<td>Silent Software Deployment (PDQ)</td>
+<td>Executed remote, unattended software installations to streamline endpoint management and minimize user disruption.</td>
+</tr>
+<tr>
+<td>Targeting Deployments via Active Directory</td>
+<td>Utilized Active Directory integration to deploy software based on domain membership and organizational unit targeting.</td>
+</tr>
+<tr>
+<td>Creating and Deploying Custom MSI Packages</td>
+<td>Built and deployed custom installation packages to overcome default deployment failures and adapt to machine-specific conditions.</td>
+</tr>
+<tr>
+<td>Collecting System Information through PDQ Inventory</td>
+<td>Queried and centralized system data including OS version, user sessions, and hardware specs for audit and reporting purposes.</td>
+</tr>
+<tr>
+<td>Executing Remote Commands via PDQ Inventory</td>
+<td>Ran diagnostics on remote endpoints using command-line tools through PDQ’s command execution feature to retrieve network configuration and status.</td>
+</tr>
+<tr>
+<td>Troubleshooting Deployment Failures on a Server</td>
+<td>Diagnosed and resolved installation issues by identifying network adapter conflicts and manually configuring alternative deployment methods.</td>
+</tr>
+</tbody>
+</table>
