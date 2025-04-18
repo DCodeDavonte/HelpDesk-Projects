@@ -4,6 +4,34 @@ Previously I've used a professional license of VMware provided by various course
 
 Checkout 𝗞𝗲𝘃𝗶𝗻 𝗔𝗽𝗼𝗹𝗶𝗻𝗮𝗿𝗶𝗼 of https://www.youtube.com/@KevtechITSupport for some powerful, free, approachable knowledge!
 
+
+## 🧪 IT Support Lab Series
+
+This series of labs walks through hands-on, practical IT support scenarios built in a home lab environment using VirtualBox, Windows Server 2022, Windows 10 Pro, and various industry tools. Each lab focuses on skills relevant to entry-level help desk, sysadmin, and GRC-aligned roles.
+
+### 🔗 Lab Index
+
+1. [**Lab Setup – Part 1**](https://github.com/DCodeDavonte/IT-Support-Lab-Series/blob/main/lab-setup-part1.md)  
+   Initial setup of Windows Server and Windows 10 Pro virtual machines in VirtualBox, including configuration for domain controller and network settings.
+
+2. [**Lab Setup – Part 2**](https://github.com/DCodeDavonte/IT-Support-Lab-Series/blob/main/lab-setup-part2.md)  
+   Domain join process, Active Directory Domain Services (ADDS) setup, and testing workstation-to-server connectivity.
+
+3. [**AD Permissions & Shared Drives**](https://github.com/DCodeDavonte/IT-Support-Lab-Series/blob/main/ad-permissions.md)  
+   Created and tested security groups, delegated permissions, and configured folder sharing using NTFS and AD best practices.
+
+4. [**Remote Desktop & Group Policy**](https://github.com/DCodeDavonte/IT-Support-Lab-Series/blob/main/remote-desktop-gpo.md)  
+   Configured RDP access and applied Group Policy Objects (GPOs) for administrative control over user environments.
+
+5. [**Silent Software Deployment with PDQ**](https://github.com/DCodeDavonte/IT-Support-Lab-Series/blob/main/pdq-deployment.md)  
+   Used PDQ Deploy and Inventory to silently push applications across machines and track software installations.
+
+6. [**Printer Access & Permissions in AD**](https://github.com/DCodeDavonte/IT-Support-Lab-Series/blob/main/printer-access-control.md)  
+   Managed network printer sharing through Active Directory with customized access control based on security groups.
+
+7. [**Spiceworks Remote Support & AD Tools**](https://github.com/DCodeDavonte/IT-Support-Lab-Series/blob/main/spiceworks-ad-tools.md)  
+   Explored help desk workflow using Spiceworks Cloud, and tested AD Delegation and account lockout troubleshooting tools.
+---
 <table>
 <colgroup>
 <col style="width: 50%" />
