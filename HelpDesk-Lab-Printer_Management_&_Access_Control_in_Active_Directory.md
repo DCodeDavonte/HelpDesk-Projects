@@ -6,17 +6,17 @@ Simulate real-world printer deployment and access control configuration using Wi
 
 ## Tools & Environment
 
-\- Windows Server 2016 (Domain Controller)  
+- Windows Server 2016 (Domain Controller)  
 - Windows 10 Pro VMs (Clients for access testing)  
 - Printer Management (via Server Manager)  
 - Active Directory Users and Computers (ADUC)  
 - VirtualBox with Host-Only Networking  
--User accounts: Administrator (Server), HelpDesk (admin-level), Xu (HR staff- Domain User)  
+- User accounts: Administrator (Server), HelpDesk (admin-level), Xu (HR staff- Domain User)  
 - Printer created and shared from the Domain Controller
 
 ## Lab Activities
 
-1\. Installing Print Services:
+### 1\. Installing Print Services:
 
 - From Server Manager, I went through the familiar "Add Roles and Features" wizard and selected "Print and Document Services."
 
@@ -30,7 +30,7 @@ Simulate real-world printer deployment and access control configuration using Wi
 
 \[Confirmation that Print Services is now available as a role — a foundational step before any print queue or driver configuration.\]
 
-2\. Navigating Print Management & Adding the Printer:
+### 2\. Navigating Print Management & Adding the Printer:
 
 - Inside Print Management, I right-clicked to add a printer. There were multiple methods here, but I went with an existing port and manually installed a driver.
 
@@ -50,7 +50,7 @@ Simulate real-world printer deployment and access control configuration using Wi
 
   <img src="media/mediaPM/image5.png" style="width:5.39583in;height:0.88423in" />
 
-3\. Review the Printer’s Security Settings:
+### 3\. Review the Printer’s Security Settings:
 
 - After the install, I opened up the printer’s properties and navigated to the Security tab, then Advanced. I immediately noticed a list of groups I hadn’t touched: SYSTEM, CREATOR OWNER, Server Operators, and Printer Operators.
 
@@ -66,7 +66,7 @@ Simulate real-world printer deployment and access control configuration using Wi
 
 - I hadn’t worked with that container much before this lab, so it was interesting to see these “default” permissions surface so clearly in a real task like printer setup. It reminded me that AD structure goes deeper than just OUs and custom groups—it includes foundational access templates.
 
-4\. Understanding Access- Admins vs. Standard Users:
+### 4\. Understanding Access- Admins vs. Standard Users:
 
 - I used HelpDesk (a Domain Admin-level account) and Xu (a standard HR user in the Domain Users group) to test access. HelpDesk could manage and configure everything as expected. Xu, meanwhile, had no print access by default.
 
@@ -82,13 +82,13 @@ Simulate real-world printer deployment and access control configuration using Wi
 
 - This was a perfect example of how access to a resource can seem invisible until tested. The lab emphasized that group membership and inheritance determine access—something that’s easy to miss when troubleshooting basic user complaints.
 
-5\. Observing the “Everyone” Group:
+### 5\. Observing the “Everyone” Group:
 
 - I saw that the "Everyone" group had Print permissions by default. I paused here, because in a secure environment (especially one with different departments or sensitive documents), this would definitely be a misconfiguration. It made me think about printers in HR, Legal, or Finance—places where print jobs could contain confidential material. In those cases, access should be controlled tightly with either custom groups or per-user access.
 
 - The "Everyone" group could easily cause silent chaos, especially if the company assumes the printer is locked down when it's actually wide open. This is also a relatively common way that malicious actors gain access to a business’s network and proceed to gain ever more pervasive access. Even the most seemingly innocuous parts of infrastructure need to be considered.
 
-6\. Finding the Printer in Active Directory:
+### 6\. Finding the Printer in Active Directory:
 
 - I opened ADUC and used the Find tool to search for the printer. It showed up just fine, confirming it had registered in the directory. This is helpful in a large organization where you want users to be able to search for and connect to printers through the directory structure. That said, it reinforces the importance of naming conventions and security hygiene—because directory-listed doesn’t mean directory-secured.
 
