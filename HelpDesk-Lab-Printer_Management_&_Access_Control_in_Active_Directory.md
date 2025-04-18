@@ -20,13 +20,13 @@ Simulate real-world printer deployment and access control configuration using Wi
 
 - From Server Manager, I went through the familiar "Add Roles and Features" wizard and selected "Print and Document Services."
 
-  <img src="media/media/image1.png" style="width:5.26832in;height:3.5in" alt="A screenshot of a computer AI-generated content may be incorrect." />
+  <img src="media/mediaPM/image1.png" style="width:5.26832in;height:3.5in" alt="A screenshot of a computer AI-generated content may be incorrect." />
 
   \[Adding the Print and Document Services role via Server Manager to enable centralized network printer management.\]
 
 - Once installed, I saw "Print Services" appear on the left-hand menu under Server Manager. This confirmed it was active, and I knew I’d be using Print Management under Tools for the rest of the lab.
 
-  <img src="media/media/image2.png" style="width:5.28125in;height:3.5637in" />
+  <img src="media/mediaPM/image2.png" style="width:5.28125in;height:3.5637in" />
 
 \[Confirmation that Print Services is now available as a role — a foundational step before any print queue or driver configuration.\]
 
@@ -34,13 +34,13 @@ Simulate real-world printer deployment and access control configuration using Wi
 
 - Inside Print Management, I right-clicked to add a printer. There were multiple methods here, but I went with an existing port and manually installed a driver.
 
-  <img src="media/media/image3.png" style="width:5.25in;height:4.03207in" />
+  <img src="media/mediaPM/image3.png" style="width:5.25in;height:4.03207in" />
 
 \[Simulating a standard enterprise scenario using an existing LPT1 port for network printer setup.\]
 
 - At first, the list of printer manufacturers/models was oddly limited—only a small handful showed up.
 
-  <img src="media/media/image4.png" style="width:5.3125in;height:4.05598in" />
+  <img src="media/mediaPM/image4.png" style="width:5.3125in;height:4.05598in" />
 
 \[Initial driver list appeared incomplete — a somewhat unexpected quirk that I noticed.\]
 
@@ -48,19 +48,19 @@ Simulate real-world printer deployment and access control configuration using Wi
 
 - I skipped naming details like location and description, since this was a lab environment and not a live enterprise context—but I noted that in a real setting, this would matter for organizational clarity and print tracking.
 
-  <img src="media/media/image5.png" style="width:5.39583in;height:0.88423in" />
+  <img src="media/mediaPM/image5.png" style="width:5.39583in;height:0.88423in" />
 
 3\. Review the Printer’s Security Settings:
 
 - After the install, I opened up the printer’s properties and navigated to the Security tab, then Advanced. I immediately noticed a list of groups I hadn’t touched: SYSTEM, CREATOR OWNER, Server Operators, and Printer Operators.
 
-  <img src="media/media/image6.png" style="width:5.34375in;height:3.60587in" />
+  <img src="media/mediaPM/image6.png" style="width:5.34375in;height:3.60587in" />
 
 \[Printer security shows multiple inherited roles — including Server Operators and Printer Operators — defined at the domain level.\]
 
 - I went to ADUC and found that these groups live under the Builtin container.
 
-  <img src="media/media/image7.png" style="width:5.46197in;height:7.65625in" />
+  <img src="media/mediaPM/image7.png" style="width:5.46197in;height:7.65625in" />
 
 \[Cross-referencing these roles in ADUC confirmed their location in the Builtin container — not something I had explicitly worked with before.\]
 
@@ -70,11 +70,11 @@ Simulate real-world printer deployment and access control configuration using Wi
 
 - I used HelpDesk (a Domain Admin-level account) and Xu (a standard HR user in the Domain Users group) to test access. HelpDesk could manage and configure everything as expected. Xu, meanwhile, had no print access by default.
 
-  <img src="media/media/image8.png" style="width:5.51532in;height:3.4375in" />
+  <img src="media/mediaPM/image8.png" style="width:5.51532in;height:3.4375in" />
 
 - To simulate a real-world permission assignment, I added the HR group to the printer’s security tab and granted Print access.
 
-  <img src="media/media/image9.png" style="width:5.59616in;height:2.02083in" />
+  <img src="media/mediaPM/image9.png" style="width:5.59616in;height:2.02083in" />
 
 \[Assigned print-only access to the HR group — a test of applying least privilege while preserving function.\]
 
@@ -92,7 +92,7 @@ Simulate real-world printer deployment and access control configuration using Wi
 
 - I opened ADUC and used the Find tool to search for the printer. It showed up just fine, confirming it had registered in the directory. This is helpful in a large organization where you want users to be able to search for and connect to printers through the directory structure. That said, it reinforces the importance of naming conventions and security hygiene—because directory-listed doesn’t mean directory-secured.
 
-  <img src="media/media/image10.png" style="width:5.67961in;height:4.0625in" />
+  <img src="media/mediaPM/image10.png" style="width:5.67961in;height:4.0625in" />
 
 \[Xu was able to detect the printer post-permission change, validating that AD publishing and access worked as intended.\]
 
