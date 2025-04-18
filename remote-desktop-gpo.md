@@ -1,11 +1,10 @@
-**Enabling Remote Desktop (RDP) on Desktop2**
----
-**Objective:**
+# Enabling Remote Desktop (RDP) on Desktop2
+
+## Objective
 
 Prepare **Desktop2** for remote administration, simulating a scenario that would be common in a corporate IT environment.
----
 
-**Steps:**
+### Steps:
 
 - **Login**: Log into **Desktop2** as **Helpdesk** or **Admin**.
 
@@ -41,10 +40,9 @@ Prepare **Desktop2** for remote administration, simulating a scenario that would
 
 **Determining Shared Drives**
 ---
-**Objective:**
+### Objective:
 
 Identify shared drives to access critical files and manage networked resources.
----
 
 **Command:**
 
@@ -89,10 +87,9 @@ Identify shared drives to access critical files and manage networked resources.
 
 **Connecting to Remote Registry**
 ---
-**Objective:**
+### Objective:
 
 Use **Registry Editor** to remotely manage the registry of **Desktop2**.
----
 
 **Steps:**
 
@@ -117,10 +114,9 @@ Use **Registry Editor** to remotely manage the registry of **Desktop2**.
 
 **Group Policy and Task Manager Restrictions**
 ---
-**Objective:**
+### Objective:
 
 Use **Group Policy** to control access privileges on **Desktop2**, simulating a typical **security policy** for end-user workstations.
----
 
 **Steps:**
 
@@ -161,14 +157,13 @@ Use **Group Policy** to control access privileges on **Desktop2**, simulating a 
 **Real-World Application:**
 
 - **Restricting certain options is a common IT policy** depending on the context and environment. It can prevent unauthorized users from tampering with system processes. Applying such policies via **Group Policy** is crucial for system administrators to ensure end-user systems remain secure and well-managed.
----
 
-**Using Group Policy for Shutdown and Restart Control**
+
+# Using Group Policy for Shutdown and Restart Control
 ---
-**Objective:**
+### Objective:
 
 Modify **Group Policy** settings to prevent accidental shutdown or restart of machines remotely by removing the button.
----
 
 **Steps:**
 
@@ -189,10 +184,9 @@ Modify **Group Policy** settings to prevent accidental shutdown or restart of ma
 
 **Monitoring and Troubleshooting Group Policy**
 ---
-**Objective:**
+### Objective:
 
 Use **Group Policy Result Tools** to monitor and troubleshoot policies applied to specific machines or users.
----
 
 **Steps:**
 
